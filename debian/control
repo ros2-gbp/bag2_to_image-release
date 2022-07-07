@@ -1,0 +1,12 @@
+Source: ros-humble-bag2-to-image
+Section: misc
+Priority: optional
+Maintainer: Daisuke Nishimatsu <nishimarudai@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libopencv-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-clang-format <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rosbag2-cpp, ros-humble-rosbag2-storage, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-bag2-to-image
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rosbag2-cpp, ros-humble-rosbag2-storage, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Description: The bag2_to_image package
