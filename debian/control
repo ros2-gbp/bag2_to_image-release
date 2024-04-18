@@ -1,0 +1,12 @@
+Source: ros-jazzy-bag2-to-image
+Section: misc
+Priority: optional
+Maintainer: Daisuke Nishimatsu <nishimarudai@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, ament-cmake-clang-format <!nocheck>, ament-cmake-copyright <!nocheck>, ament-cmake-cppcheck <!nocheck>, ament-cmake-cpplint <!nocheck>, ament-cmake-flake8 <!nocheck>, ament-cmake-lint-cmake <!nocheck>, ament-cmake-pep257 <!nocheck>, ament-cmake-uncrustify <!nocheck>, ament-cmake-xmllint <!nocheck>, ament-lint <!nocheck>, libopencv-dev, libsensor-msgs-dev, python3-sensor-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosbag2-cpp, ros-jazzy-rosbag2-storage, ros-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-bag2-to-image
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, libsensor-msgs-dev, python3-sensor-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosbag2-cpp, ros-jazzy-rosbag2-storage, ros-sensor-msgs, ros-jazzy-ros-workspace
+Description: The bag2_to_image package
