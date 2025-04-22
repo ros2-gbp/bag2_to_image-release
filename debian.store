@@ -1,1 +1,1 @@
-{"base": "3051ba6", "parent": "debian/rolling/bag2_to_image", "previous": "177ddad", "trim": "", "trimbase": ""}
+{"base": "1bcbe5a74ae8", "parent": "debian/kilted/bag2_to_image", "previous": "6df89f0e142b", "trim": "", "trimbase": ""}
