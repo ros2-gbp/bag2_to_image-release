@@ -1,0 +1,12 @@
+Source: ros-lyrical-bag2-to-image
+Section: misc
+Priority: optional
+Maintainer: Daisuke Nishimatsu <nishimarudai@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libopencv-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-clang-format <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rosbag2-cpp, ros-lyrical-rosbag2-storage, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/bag2_to_image/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-bag2-to-image
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rosbag2-cpp, ros-lyrical-rosbag2-storage, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Description: The bag2_to_image package
